@@ -1,0 +1,21 @@
+a {
+	text-decoration: none;
+}
+a: link {
+	color: #115493;
+}
+a:visited {
+	color: #115493;
+}
+a:hover {
+	color: #115493;
+}
+a:active {
+	color: #115493;
+}
+li {
+	display: inline;
+	padding: 5px;
+	color: #115493;
+	font-size: 24px;
+}

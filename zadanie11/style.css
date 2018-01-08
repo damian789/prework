@@ -1,0 +1,22 @@
+#content {
+	background-color: #d2d3d4;
+	opacity: 0.4; /* nie zrobiłem przezroczystości w rgba bo nie wiedziałem jak */
+}
+#gradient {
+	background: rgba(147,206,222,1);
+	width: 150px;
+	height: 150px;
+}
+#tlo {
+	width: 550px;
+	height: 550px;
+	background-image: url("images/xxx.jpg");
+	
+}
+#polecenie {
+	width: 100%;
+	height: 200px;
+	background-image: url("images/xxx.jpg");
+	background-repeat: no-repeat;
+	background-position: center; /* kiedy nie było background-position obrazek nie był wycentrowamy. po użyciu obrazek automatycznie się wyrównał do środka */
+}

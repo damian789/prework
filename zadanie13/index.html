@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<title>HTML/CSS -formularze</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form>
+		<label>Your name:<br>
+			<input type="text" placeholder="Your name">
+		</label>
+	</form>
+	<form>
+		<label>Your email address: <br>
+			<input type="email" placeholder="your email">
+		</label>
+	</form>
+	<form>
+		<label>Your message: <br>
+			<textarea cols="50" rows="10" placeholder="Please describe your question or comment"></textarea>
+				<br>
+					<input type="submit" value="Send">
+		</label>
+	</form>
+<br>
+	<form>
+		<fieldset>
+			<legend>Choose car class</legend>
+			<input type="radio" name="car" value="mini" checked="checked" /> Mini 
+<br>
+			<input type="radio" name="car" value="economy" /> Economy
+<br>
+			<input type="radio" name="car" value="compact" /> Compact
+<br>
+			<input type="radio" name="car" value="SUV" /> SUV
+<br>
+			<input type="radio" name="car" value="VAN" /> VAN
+		</fieldset>
+	</form>
+	<form>
+		<fieldset>
+			<legend>Choose optional equipment</legend>
+				<input type="checkbox" name="eq" value="child seat" /> Child sest
+<br>
+				<input type="checkbox" name="eq" value="GPS" checked="checked" /> GPS
+<br>
+				<input type="checkbox" name="eq" value="DVD PLAYER" /> DVD PLAYER
+		</fieldset>
+	</form>
+	<form>
+		<label for="username">Rental start date</label>
+		<input type="date" name="depart" />
+	<form/>
+<br>
+	<form>
+		<label>Number of day</label>
+			<input type="number" name="number" />
+	</form>
+
+	<form>
+		<label>Your password</label>
+			<input type="password" name="password" />
+	</form>
+<br>
+	<form>
+		<input type="submit" value="Order now" />
+<body>
+</html>

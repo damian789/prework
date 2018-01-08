@@ -1,0 +1,27 @@
+#box1 {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	float: left;
+	
+}
+#box2 {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	float: right;
+}
+#paragraf1 {
+	clear: both;
+	float: left;
+	width: 80px;
+	border: 2px dotted red;
+	
+	
+}
+#paragraf2 {
+	float: left;
+	width: 80px;
+	border: 2px dotted red;
+	
+}
